@@ -34,7 +34,7 @@ namespace WiredBrainCoffee.DataProcessorTests.Parsing
             Assert.True(machineDataItems.Length == 2);
         }
 
-        [InlineData("Cappuccino", "Invalid csv line")]
+        [InlineData("Cappucino", "Invalid csv line")]
         [InlineData("Cappuccino; InvalidDateTime", "Invalid datetime in csv line")]
 
         [Theory]
